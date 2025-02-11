@@ -1,3 +1,101 @@
-html, body {
+body {
     margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.nav-bar {
+    background-color: rgba(245, 90, 90, 1);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 55px;
+}
+
+.nav-logo {
+    width: 24px;
+    margin: 7px;
+
+}
+
+.nav-text {
+    font-size: 0.9 rem;
+}
+
+/* Entry component */
+.journal-entry {
+    display: flex;
+
+    height: 168px;
+    color: #2B283A;
+    font-weight: 400;
+
+    margin: 20px;
+    padding: 20px;
+}
+
+.img-container {
+    width: 125px;
+    height: 168px;
+    overflow: hidden;
+    border-radius: 5px;
+    flex-shrink: 0;
+    margin-right: 19px;
+}
+
+.country-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    padding: 1px;
+}
+
+.map-marker {
+    width: 7px;
+    height: 9.5px;
+}
+
+.country-name {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+
+    margin-left: 4px;
+    margin-right: 12px;
+
+}
+
+.google-maps-link {
+    color: #2B283A;
+    font-size: 0.7rem;
+}
+
+.google-maps-link:visited {
+    color: #918E9B;
+}
+
+.city-name {
+    margin-top: 7px;
+    margin-bottom: 17px;
+}
+
+.trip-date {
+    font-weight: bold;
+}
+
+.entry-text {
+    line-height: 1.5;
+    font-size: 0.8rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
 }

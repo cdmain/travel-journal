@@ -1,6 +1,9 @@
 function Header() {
     return (
-        <h2>Header goes here</h2>
+        <nav className="nav-bar">
+            <img className="nav-logo" src="src\assets\Globe.png" alt="Globe logo" />
+            <span className="nav-text">my travel journal.</span>
+        </nav>
     )
 }
 
