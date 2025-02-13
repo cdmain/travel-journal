@@ -92,6 +92,7 @@ body {
 .entry-text {
     line-height: 1.5;
     font-size: 0.8rem;
+    line-clamp: 3;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;  
