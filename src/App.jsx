@@ -5,7 +5,7 @@ import data from "./data"
 const entryData = data.map((entryData) =>{
   return <Entry
   key={entryData.id}
-  entry={entryData}
+  {...entryData}
   />
 })
 
