@@ -2,17 +2,10 @@ import Header from "./components/Header"
 import Entry from "./components/Entry"
 import data from "./data"
 
-const entryData = data.map((data) =>{
+const entryData = data.map((entryData) =>{
   return <Entry
-  img = {{
-    src: data.img.src,
-    alt: data.img.alt
-  }}
-  title={data.title}
-  country={data.country}
-  googleMapsLink={data.googleMapsLink}
-  dates={data.dates}
-  text={data.text}
+  key={entryData.id}
+  entry={entryData}
   />
 })
 
