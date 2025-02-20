@@ -11,7 +11,7 @@ function Header() {
             />
             <span 
                 className="nav-heading" role="heading" aria-level="1">
-                    My Travel Journal.
+                    my travel journal.
                 </span>
         </nav>
     )
