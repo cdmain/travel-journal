@@ -4,7 +4,7 @@ body {
     font-style: normal;
     font-weight: 500;
 }
-
+/* Header component */
 .nav-bar {
     background-color: rgba(245, 90, 90, 1);
     color: white;
@@ -20,7 +20,7 @@ body {
     margin: 7px;
 }
 
-.nav-text {
+.nav-heading {
     font-size: 0.9 rem;
 }
 

@@ -2,9 +2,17 @@ import globeLogo from "/src/assets/Globe.png"
 
 function Header() {
     return (
-        <nav className="nav-bar">
-            <img className="nav-logo" src={globeLogo} alt="Globe logo" />
-            <span className="nav-text">my travel journal.</span>
+        <nav className="nav-bar" aria-label="Main Navigation">
+            <img 
+                className="nav-logo" 
+                src={globeLogo} 
+                alt="Globe logo" 
+                aria-hidden="true"
+            />
+            <span 
+                className="nav-heading" role="heading" aria-level="1">
+                    My Travel Journal.
+                </span>
         </nav>
     )
 }
