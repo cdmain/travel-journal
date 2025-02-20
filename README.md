@@ -51,7 +51,7 @@ Once the app is running, you can view and document your travels. The application
 
 ## Screenshots
 
-![Calculator Screenshot](/src/assets/demo-site.png)
+![Calculator Screenshot](https://github.com/cdmain/travel-journal/main/src/assets/demo-site.png)
 
 **Guidelines:**
 
