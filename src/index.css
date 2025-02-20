@@ -29,7 +29,8 @@ body {
     display: flex;
     gap: 19px;
 
-    height: 168px;
+    
+    height: auto;
     color: #2B283A;
     font-weight: 400;
 
@@ -74,12 +75,6 @@ body {
 .google-maps-link {
     color: #2B283A;
     font-size: 0.7rem;
-
-    line-clamp: 1;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical; 
-    overflow: hidden;
 }
 
 .google-maps-link:visited {
@@ -89,32 +84,41 @@ body {
 .city-name {
     margin-top: 7px;
     margin-bottom: 17px;
-    
-    line-clamp: 1;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical; 
-    overflow: hidden;
-
 }
 
 .trip-date {
     font-weight: bold;
-    
-    line-clamp: 2;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;  
-    overflow: hidden;
 }
 
 .entry-text {
     line-height: 1.5;
     font-size: 0.8rem;
-    
-    line-clamp: 3;
+}
+
+.truncated-text {
+    /* line-clamp: 3;*/
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;  
     overflow: hidden;
 }
+
+.expanded-text {
+    display: block;
+}
+
+.toggle-button {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 0.9rem;
+
+    background: rgba(245, 90, 90, 1);
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    padding: 0.2rem 0.5rem;
+    margin-top: 5px;
+  }
