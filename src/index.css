@@ -27,6 +27,7 @@ body {
 /* Entry component */
 .journal-entry {
     display: flex;
+    gap: 19px;
 
     height: 168px;
     color: #2B283A;
@@ -42,7 +43,6 @@ body {
     overflow: hidden;
     border-radius: 5px;
     flex-shrink: 0;
-    margin-right: 19px;
 }
 
 .country-img {
@@ -74,6 +74,12 @@ body {
 .google-maps-link {
     color: #2B283A;
     font-size: 0.7rem;
+
+    line-clamp: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical; 
+    overflow: hidden;
 }
 
 .google-maps-link:visited {
@@ -83,18 +89,32 @@ body {
 .city-name {
     margin-top: 7px;
     margin-bottom: 17px;
+    
+    line-clamp: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical; 
+    overflow: hidden;
+
 }
 
 .trip-date {
     font-weight: bold;
+    
+    line-clamp: 2;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
 }
 
 .entry-text {
     line-height: 1.5;
     font-size: 0.8rem;
-    line-clamp: 3;
+    
+    line-clamp: 4;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;  
     overflow: hidden;
 }
