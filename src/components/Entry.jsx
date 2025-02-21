@@ -36,7 +36,7 @@ export default function Entry(prop) {
             href={prop.googleMapsLink}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label={`view ${prop.country} from ${prop.title} on Google Maps`}
+            aria-label={`view ${prop.country} in ${prop.title} on Google Maps`}
           >
             View on Google Maps
           </a>
