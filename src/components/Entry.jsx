@@ -61,6 +61,7 @@ export default function Entry(prop) {
           <button 
             className="toggle-button" 
             onClick={() => setIsExpanded(!isExpanded)}
+            aria-label={isExpanded ? "Collapse text" : "Expand text"}
           >
             {isExpanded ? "Read Less" : "Read More"}
           </button>
