@@ -29,7 +29,6 @@ export default function Entry(prop) {
             className="map-marker" 
             src={mapMarkerIcon} 
             alt=""
-            role="presentation"
           />
           <span className="country-name">{prop.country}</span>
           <a 
@@ -37,7 +36,7 @@ export default function Entry(prop) {
             href={prop.googleMapsLink}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label={`Link to view ${prop.country}, ${prop.title} on Google Maps`}
+            aria-label={`view ${prop.country} from ${prop.title} on Google Maps`}
           >
             View on Google Maps
           </a>
@@ -58,7 +57,7 @@ export default function Entry(prop) {
           <button 
             className="toggle-button" 
             onClick={() => setIsExpanded(!isExpanded)}
-            aria-label={isExpanded ? "Collapse text" : "Expand text"}
+            aria-label={isExpanded ? "show less text" : "show full text"}
           >
             {isExpanded ? "Read Less" : "Read More"}
           </button>
