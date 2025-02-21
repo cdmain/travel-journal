@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import mapMarkerIcon from "/src/assets/map-marker-icon.png";
 
 export default function Entry(prop) {
