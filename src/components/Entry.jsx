@@ -20,10 +20,7 @@ export default function Entry(prop) {
           className="country-img" 
           src={prop.img.src} 
           alt={prop.img.alt}
-          role="img"
-          aria-describedby={`desc-${prop.id}`}
         />
-        <p id={`desc-${prop.id}`} className="sr-only">{prop.img.alt}</p>
       </div>   
 
       <div className="country-info">
@@ -31,8 +28,8 @@ export default function Entry(prop) {
           <img 
             className="map-marker" 
             src={mapMarkerIcon} 
-            alt="map marker logo"
-            role="presentation"                         
+            alt=""
+            role="presentation"
           />
           <span className="country-name">{prop.country}</span>
           <a 
@@ -40,7 +37,7 @@ export default function Entry(prop) {
             href={prop.googleMapsLink}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label={`View ${prop.country} on Google Maps`}
+            aria-label={`Link to view ${prop.country}, ${prop.title} on Google Maps`}
           >
             View on Google Maps
           </a>
