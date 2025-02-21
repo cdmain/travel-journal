@@ -50,7 +50,6 @@ export default function Entry(prop) {
 
         <p className="trip-date">{prop.dates}</p>
         
-        {/* Attach the ref to the paragraph element */}
         <p 
           ref={textRef}
           className={`entry-text ${isExpanded ? "expanded-text" : "truncated-text"}`}
@@ -58,7 +57,6 @@ export default function Entry(prop) {
           {prop.text}
         </p>
         
-        {/* Show toggle button only if there's an overflow when truncated */}
         {hasOverflow && (
           <button 
             className="toggle-button" 
