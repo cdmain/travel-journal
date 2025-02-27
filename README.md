@@ -21,26 +21,6 @@ Click here to live demo: [My Travel Journal](https://cdmain.github.io/travel-jou
 - **JavaScript**: Adds functionality and interactivity, making the app dynamic.
 - **React.js**: A JavaScript library for building user interfaces, managing state, and re-rendering components efficiently.
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/cdmain/travel-journal.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd travel-journal
-   ```
-3. Install the dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the development server:
-   ```bash
-   npm run dev
-   ```
-Now, you can open the application in your browser at http://localhost:3000.
-
 ## Usage
 
 Once the app is running, you can view and document your travels. The application allows you to:
