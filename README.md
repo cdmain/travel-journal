@@ -21,17 +21,13 @@ Click here to live demo: [My Travel Journal](https://cdmain.github.io/travel-jou
 - **JavaScript**: Adds functionality and interactivity, making the app dynamic.
 - **React.js**: A JavaScript library for building user interfaces, managing state, and re-rendering components efficiently.
 
-## Usage
-
-Once the app is running, you can view and document your travels. The application allows you to:
-
-- Add country names, titles, dates, and journal entries.
-- View your entries with images and descriptions.
-- Access Google Maps links for each location.
-
 ## Screenshots
 
 ![travel-journal Screenshot](/src/assets/demo-site.png)
+
+## Contributing
+
+Contributions are welcome! If you have suggestions, bug fixes, or enhancements, please fork the repository and submit a pull request.
 
 **Guidelines:**
 
@@ -39,6 +35,14 @@ Once the app is running, you can view and document your travels. The application
 2. Create a branch for your feature or fix.
 3. Make your changes and commit them.
 4. Open a pull request describing your changes.
+
+## Usage
+
+Once the app is running, you can view and document your travels. The application allows you to:
+
+- Add country names, titles, dates, and journal entries.
+- View your entries with images and descriptions.
+- Access Google Maps links for each location.
 
 ## Future Improvements
 
@@ -50,10 +54,6 @@ Here are some planned enhancements for future updates:
 - 📅 **Trip calendar view** to visualize trips on a timeline.  
 - 🗂️ **Categorization & filtering** to sort journal entries by country, date, or type of trip.  
 - 🌐 **Multi-language support** to make the app accessible to a global audience.  
-
-## Contributing
-
-Contributions are welcome! If you have suggestions, bug fixes, or enhancements, please fork the repository and submit a pull request.
 
 ## License
 This project is open-source and available under the MIT License.
