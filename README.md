@@ -31,7 +31,7 @@ Once the app is running, you can view and document your travels. The application
 
 ## Screenshots
 
-![Calculator Screenshot](/src/assets/demo-site.png)
+![travel-journal Screenshot](/src/assets/demo-site.png)
 
 **Guidelines:**
 
