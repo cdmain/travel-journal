@@ -2,6 +2,14 @@
 
 This repository contains a simple, responsive, and high-performance travel journal application built with HTML5, CSS3, JavaScript, and React. The design is minimalistic and user-friendly, optimized for both desktop and mobile devices.
 
+## Screenshots
+
+![travel-journal Screenshot](/src/assets/demo-site.png)
+
+## Live demo
+
+Click here to live demo: [My Travel Journal](https://cdmain.github.io/travel-journal/) 🚀
+
 ## Features
 
 - Interactive **React components** to handle user inputs.
@@ -10,20 +18,12 @@ This repository contains a simple, responsive, and high-performance travel journ
 - Responsive layout for cross-platform usage, meaning it works seamlessly on **desktop, tablet, and mobile devices.**
 - **Google Maps integration** used for interactity by allowing users to view locations of trips.
 
-## Live demo
-
-Click here to live demo: [My Travel Journal](https://cdmain.github.io/travel-journal/) 🚀
-
 ## Technologies Used
 
 - **HTML5**: Structure of the application, ensuring semantic and modern markup.
 - **CSS3**: Styling and responsive design with media queries to make the app mobile-friendly.
 - **JavaScript**: Adds functionality and interactivity, making the app dynamic.
 - **React.js**: A JavaScript library for building user interfaces, managing state, and re-rendering components efficiently.
-
-## Screenshots
-
-![travel-journal Screenshot](/src/assets/demo-site.png)
 
 ## Contributing
 
